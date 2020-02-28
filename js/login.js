@@ -52,7 +52,7 @@
           }
           document.getElementById('login-button').addEventListener('click', function() {
             var client_id = 'f554891ad40a440d92e3a9ab83b03fbc'; // Tu Client ID
-            var redirect_uri = 'http://www.collectivecloudperu.com/blog/tutos/demos/metadata_api_spotify/buscar/'; // Tu Redirect URI (Direccion URL a donde quieres que redireccione luego de iniciar Sesion Con tu cuenta de Spotify.)
+            var redirect_uri = 'https://nubecolectiva.com/blog/tutos/demos/metadata_api_spotify/buscar/'; // Tu Redirect URI (Direccion URL a donde quieres que redireccione luego de iniciar Sesion Con tu cuenta de Spotify.)
             var state = generateRandomString(16);
             localStorage.setItem(stateKey, state);
             var scope = 'user-read-private user-read-email';
