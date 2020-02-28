@@ -58,5 +58,5 @@
 
       // Ocultamos nuestro acces token por seguridad
       if(typeof window.history.pushState == 'function') {
-          window.history.pushState({}, "Hide", "http://www.collectivecloudperu.com/blog/tutos/demos/metadata_api_spotify/buscar/");
+          window.history.pushState({}, "Hide", "https://nubecolectiva.com/blog/tutos/demos/metadata_api_spotify/buscar/");
       }
